@@ -1,0 +1,94 @@
+@import url(./reset.css);
+@import url(./common.css);
+
+header {
+  height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.in_header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 75px;
+}
+
+.menu_wrap {
+  max-width: 670px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.menu_wrap a {
+  color: #808080;
+  font-weight: 400;
+}
+
+nav {
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lang {
+  color: #dbdbdb;
+}
+
+.lang .lang_active {
+  color: #191f28;
+}
+
+.mo_menu {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .in_header {
+    width: 90%;
+  }
+
+  .menu_wrap {
+    display: none;
+  }
+
+  .mo_menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .mo_btn {
+    font-size: 20px;
+    color: #808080;
+    cursor: pointer;
+  }
+
+  .app_down {
+    padding: 7px 15px;
+    background-color: #0064ff;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+
+  .app_down a {
+    color: white;
+    font-weight: 500;
+  }
+}
+
+/* header end */
