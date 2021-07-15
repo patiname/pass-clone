@@ -11,6 +11,11 @@ footer {
   float: left;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 .in_header,
 .container {
   max-width: 1050px;
