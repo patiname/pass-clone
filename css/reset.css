@@ -3,6 +3,10 @@
    License: none (public domain)
 */
 
+body {
+  background-color: #f9fafb;
+}
+
 html,
 body,
 div,
